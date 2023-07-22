@@ -15,7 +15,7 @@
 	
 3. Enter the source information in the config.txt file
 
-4.Run on terminal:
+4. Run on terminal:
 
 	./main delay_time  
 	

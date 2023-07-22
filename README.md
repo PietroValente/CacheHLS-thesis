@@ -17,9 +17,8 @@
 
 4. Run on terminal:
 
-	./main delay_time
-
- or   
+	./main delay_time  
+	or  
 	./main delay_time -l (for the debugger version)
 	
 6. Wait for terminal to finish the countdown and print the output address, ctrl+click to open it on the browser (sometimes you need to click twice because the first opening the browser does not open with the HLS extension)

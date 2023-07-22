@@ -17,8 +17,7 @@
 
 4. Run on terminal:
 
-	./main delay_time  
-	
+	./main delay_time  	
  or   
 
 	./main delay_time -l (for the debugger version)

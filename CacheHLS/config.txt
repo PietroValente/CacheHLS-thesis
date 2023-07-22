@@ -1,0 +1,1 @@
+source=https://streamcdnm2-89b7affa5ef540379d95e53946d9cec4.msvdn.net/liveDVR/ngrp:rainews24_bscc/playlist.m3u8

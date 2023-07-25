@@ -15,8 +15,8 @@ Since some servers already have an internal cache for storing chunks of several 
 The program is essentially a proxy, developed using multiple threads to make it more efficient. The cache employs a dynamic data structure that retains files for the necessary time and then removes them, ensuring it doesn't consume excessive memory space.
 
 <p align="center">
-	<a href="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS.png"><img src="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS.png" alt="" width="50%"></a>
-	<a href="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS%20-%20Manifest%20Only.png"><img src="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS%20-%20Manifest%20Only.png" alt="" width="50%"></a>
+	<a href="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS.png"><img src="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS.png" alt="" width="49%"></a>
+	<a href="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS%20-%20Manifest%20Only.png"><img src="https://github.com/PietroValente/CacheHLS-thesis/blob/main/Images/CacheHLS%20-%20Manifest%20Only.png" alt="" width="49%"></a>
 </p>
 
 ## Usability

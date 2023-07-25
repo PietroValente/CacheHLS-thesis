@@ -5,6 +5,14 @@
 </p>
 
 ## Overview
+The project involves creating a cache for HLS live streaming files transmitted over broadband, introducing a customizable delay in seconds. This can be useful in various testing scenarios or even in unstable broadband streams, as the cache helps to smooth out the streaming and prevent buffering.
+
+Since some servers already have an internal cache for storing chunks of several hours, there are two versions of the program:
+
+1. **CacheHLS**: This version saves both the chunks and the manifest file in the local cache.
+2. **CacheHLS** - Manifest Only: This version, on the other hand, saves only the manifest files in the local cache, assuming there is a server cache from which it can fetch the chunks, as mentioned earlier.
+
+The program is essentially a proxy, developed using multiple threads to make it more efficient. The cache employs a dynamic data structure that retains files for the necessary time and then removes them, ensuring it doesn't consume excessive memory space.
 
 ## Usability
 1. Open a terminal in the Code folder of the chosen CacheHLS version
